@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:  #0f172a;
+    color: #e2e8f0;
+}
+
+.header{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+h2 {
+    color: #6366f1;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+p{
+    color: #94a3b8;
+}
+
+.header-p{
+    max-width: 500px;
+    text-align: center;
+}
+
+h3,p,ul{
+    margin-bottom: 10px;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.tag{
+    display: flex;
+    align-self: center;
+    justify-content: space-between; 
+    padding: 0 5px;
+}
+
+.most-popular-tag {
+    background-color: #272d3e;
+    color: #6366f1;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+
+
+
+.pricing-card{
+    background-color: #1b2246;
+    border-radius: 12px;
+    padding: 32px 24px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 10px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgb(18 24 46 / 0.2);
+    border-radius: 10px;
+    background-color: #1e293b;
+    transition: all 0.3s;
+}
+
+.accent-card {
+    border: 2px solid #6366f1;
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.15);
+}
+
+
+
+.pricing-card:hover {
+    box-shadow: 0 8px 24px rgb(103 115 255 / 0.4);
+    border-color: #6767ff;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s;
+}
+
+
+
+
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.accent-text{
+    color: #6366f1;
+}
+
+span{
+    font-size: 1rem;
+    color:#94a3b8
+}
+
+button{
+    background-color: #4a4f63;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 14px rgba(79, 82, 255, 0.6);
+}
+
+button:hover{
+    background-color: #373b52;
+}
+
+.accent-btn{
+    background-color: #4f52ff;
+    transition: all 0.5s;
+}
+
+.accent-btn:hover{
+    background-color: #2f33db;
+    transition: all 0.5s;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+ul li{
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    color: #b9bee6;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.3;
+}
+
